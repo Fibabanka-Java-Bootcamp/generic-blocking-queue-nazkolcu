@@ -6,8 +6,9 @@ public class Queue<T> implements Functions<T> {
     private Object<T> lastObj;
 
 
-    public void add(T a) {
+    synchronized public void add(T a) {
         Object<T> obj = new Object<>(a);
+        System.out.println("Eklenen değer: " + obj.getValue().toString());
         if (firstObj == null) {
             firstObj = obj;
             lastObj = obj;
@@ -18,32 +19,34 @@ public class Queue<T> implements Functions<T> {
     }
 
     @Override
-    public T poll() {
+    synchronized public T poll() {
         T x = null;
 
         if (firstObj != null) {
             Object<T> obj = firstObj;
             firstObj = firstObj.getNextObj();
             x = obj.getValue();
-        }
-        else
-        { throw new NullPointerException("kuyyyruk boş");
+        } else {
 
-            //x=null;
-               // T) "Kuyruk boş!";
+            System.out.println("Kuyruk boş");
+            return null;
         }
+        System.out.println("Çekilen değer: " + x.toString());
 
         return x;
     }
 
     @Override
-    public T peek() {
+    synchronized public T peek() {
         if (firstObj == null) {
-            throw new IllegalArgumentException("kuyyyruk boş");
 
-           // return null;
-                    //(T) "Kuyruk boş!";
+            System.out.println("Kuyruk boş");
+            return null;
+
         } else {
+
+            System.out.println("Okunan değer: " + firstObj.getValue().toString());
+
             return firstObj.getValue();
         }
     }

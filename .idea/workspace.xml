@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e639e8c-a482-43e5-920d-1b98fbe3c980" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/generic-blocking-queue-nazkolcu.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/kodluyoruz/Functions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/kodluyoruz/Object.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/kodluyoruz/Queue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReadMe.md" beforeDir="false" afterPath="$PROJECT_DIR$/ReadMe.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/generic-blocking-queue-nazkolcu/org/kodluyoruz/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generic-blocking-queue-nazkolcu/org/kodluyoruz/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/generic-blocking-queue-nazkolcu/org/kodluyoruz/Queue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/generic-blocking-queue-nazkolcu/org/kodluyoruz/Queue.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/kodluyoruz/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/kodluyoruz/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/kodluyoruz/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/kodluyoruz/Queue.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -90,6 +83,8 @@
       <workItem from="1609059127749" duration="5554000" />
       <workItem from="1609145244892" duration="362000" />
       <workItem from="1609348165333" duration="7468000" />
+      <workItem from="1609532504012" duration="354000" />
+      <workItem from="1609618689121" duration="9691000" />
     </task>
     <servers />
   </component>
